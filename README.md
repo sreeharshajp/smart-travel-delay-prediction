@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Smart Travel Delay Prediction System
 
 A web application that predicts travel delays based on weather conditions and route information using machine learning.
@@ -148,3 +149,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Ensure your API keys are kept secure
 - The ML model requires specific input features as listed in the API documentation
 - For production use, consider implementing rate limiting and authentication
+=======
+# smart-travel-delay-prediction
+Predicts travel delays using real-time weather and route data from APIs, powered by a backend machine learning model for accurate and timely insights.
+>>>>>>> 3f203150738bd054ef0e2ad7852ed9037a575330
