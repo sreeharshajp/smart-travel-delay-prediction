@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Travel Delay Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.1);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 20px 10px;
+            background: #ff6b6b;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background: #ff5252;
+            transform: translateY(-2px);
+        }
+        .api-btn {
+            background: #4ecdc4;
+        }
+        .api-btn:hover {
+            background: #45b7b8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚦 Smart Travel Delay Prediction System</h1>
+        <p>AI-powered travel delay prediction using weather data and machine learning</p>
+        
+        <div>
+            <a href="./frontend/index.html" class="btn">🌐 Launch Application</a>
+            <a href="https://smart-travel-delay-prediction.onrender.com" class="btn api-btn" target="_blank">🔧 API Backend</a>
+        </div>
+        
+        <div style="margin-top: 40px;">
+            <h3>🌟 Features</h3>
+            <ul style="text-align: left; display: inline-block;">
+                <li>🗺️ Interactive route mapping with Leaflet</li>
+                <li>🌤️ Real-time weather data integration</li>
+                <li>🤖 Machine learning-based delay prediction</li>
+                <li>📱 Responsive design for all devices</li>
+                <li>🔄 Live API integration</li>
+            </ul>
+        </div>
+        
+        <div style="margin-top: 40px;">
+            <h3>🛠️ Technology Stack</h3>
+            <p>Frontend: HTML5, CSS3, JavaScript, Leaflet Maps</p>
+            <p>Backend: Flask, Python, scikit-learn</p>
+            <p>APIs: OpenRouteService, OpenWeatherMap</p>
+            <p>Deployment: Render, GitHub Pages</p>
+        </div>
+        
+        <div style="margin-top: 40px;">
+            <p>
+                <a href="https://github.com/sreeharshajp/smart-travel-delay-prediction" target="_blank" style="color: #ffd700;">
+                    📂 View Source Code on GitHub
+                </a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
