@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Travel Delay Forecasting</title>
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <!-- Includes Leaflet's default stylesheet (for rendering interactive maps).-->
+
+</head>
+<body>
+  <!-- Main Blur Container -->
+  <div class="container">
+    <div class="card">
+      <h1>🚦 Smart Travel Delay Prediction <br />
+    Using Weather & Route APIs </h1>
+
+      <!-- Inputs Section -->
+      <div class="inputs">
+        <div class="input-group">
+          <input type="text" id="origin" placeholder=" " required />
+          <label for="origin">Origin</label>
+        </div>
+
+        <div class="input-group">
+          <input type="text" id="destination" placeholder=" " required />
+          <label for="destination">Destination</label>
+        </div>
+
+        <button onclick="predictDelay()">Predict Delay</button>
+      </div>
+
+      <!-- Results and Map Display -->
+      <div class="info-map-container">
+        <!-- Prediction & Weather Info -->
+        <div id="result" class="result-box">
+          <!-- JS will insert content here -->
+        </div>
+
+        <!-- Leaflet Map -->
+        <div id="map" class="map-box">
+          <!-- Leaflet will render map here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Leaflet & App Scripts -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
