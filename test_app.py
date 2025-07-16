@@ -4,7 +4,7 @@ import unittest
 from unittest.mock import patch, MagicMock
 
 # Add the backend directory to the path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'backend'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'backend'))
 
 class TestApp(unittest.TestCase):
     def setUp(self):
