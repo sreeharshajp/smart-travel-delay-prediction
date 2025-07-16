@@ -8,7 +8,7 @@ const config = {
   // Backend URL - Change for production deployment
   BACKEND_URL: window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
     ? "http://127.0.0.1:5000" 
-    : "https://your-backend-url.herokuapp.com", // Update this for production
+    : "https://smart-travel-delay-prediction.onrender.com", // Update this for production
   
   // Map settings
   MAP_CENTER: [20, 0],
